@@ -107,24 +107,8 @@ const Search = (props) => {
 
   return (
     <div>
-      <h1>Search</h1>
+      <h1>Search Vehicle</h1>
       <form id="searchForm" onSubmit={handleSubmit}>
-        <div>
-          <input
-            type="radio"
-            name="database"
-            value="mongo"
-            onChange={(e) => setDatabase(e.target.value)}
-          />
-          <label>Mongo</label>
-          <input
-            type="radio"
-            name="database"
-            value="postgres"
-            onChange={(e) => setDatabase(e.target.value)}
-          />
-          <label>PostgreSQL</label>
-        </div>
         <br />
         {database === "mongo" ? (
           <div>
