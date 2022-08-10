@@ -21,10 +21,11 @@ function App() {
     
     
     <Routes>
-      <Route path="" element={<Login setUser={setUser} setIsLoggedIn={setIsLoggedIn} />} />
+      
+      {/* <Route path="" element={<Login setUser={setUser} setIsLoggedIn={setIsLoggedIn} />} />
       <Route path="/register" element={<Register />} />
       
-      <Route path="/search" element={<Search user={user} isLoggedIn={isLoggedIn}/>} /> // this wont be a link but a result of a login
+      <Route path="/search" element={<Search user={user} isLoggedIn={isLoggedIn}/>} /> // this wont be a link but a result of a login */}
     </Routes>
     <Footer />
     </main>
