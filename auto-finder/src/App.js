@@ -25,7 +25,7 @@ function App() {
       {/* <Route path="" element = {<Login/>} /> */}
 
 
-      <Route path="" element={<Search user={user} isLoggedIn={isLoggedIn}/>} /> // this wont be a link but a result of a login
+      <Route path="" element={<Search/>} /> // this wont be a link but a result of a login
     </Routes>
     <Footer />
     </main>
